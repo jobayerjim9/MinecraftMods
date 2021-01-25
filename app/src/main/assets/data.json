@@ -1,0 +1,410 @@
+[
+  {
+    "images": [
+      {
+        "image": "1_1.jpg"
+      },
+      {
+        "image": "1_2.jpg"
+      },
+      {
+        "image": "1_3.jpg"
+      },
+      {
+        "image": "1_4.jpg"
+      }
+    ],
+    "file": "1.mcaddon",
+    "title_def": "Elingo’s Lucky Block",
+
+    "title_ru": "Elingo’s Lucky Block",
+
+    "desc_def": "The amount of resources in the inventory depends only on the player himself. It takes a lot of time and effort. Therefore, a new method was invented, which depends only on luck. This addon will add a new block type - LuckyBlocks. Players will have the opportunity to create them at any time. There are different types. The more rare materials are spent on crafting blocks, the steeper the block drops out. By the way, blocks can appear randomly all over the world!",
+
+    "desc_ru": "Количество ресурсов в инвентаре зависит только от самого игрока. На это уходит много времени и сил. Поэтому был изобретен новый метод, который зависит только от удачи. Этот аддон добавит новый тип блока - LuckyBlocks. У игроков будет возможность создать их в любой момент. Есть разные виды. Чем больше редких материалов тратится на крафт блоков, тем круче выпадает блок. Кстати, блоки могут появляться случайным образом по всему миру!"
+  },
+  {
+    "images": [
+      {
+        "image": "2_1.jpg"
+      },
+      {
+        "image": "2_2.jpg"
+      },
+      {
+        "image": "2_3.jpg"
+      },
+      {
+        "image": "2_4.jpg"
+      }
+    ],
+    "file": "2.mcaddon",
+    "title_def": "Lucky Blocks",
+
+    "title_ru": "Lucky Blocks",
+
+    "desc_def": "This addon adds 3 lucky blocks to the game, which can be opened by breaking them. There are 58 different things in total that can happen when breaking lucky blocks. The usual lucky block is all effects. Lucky Lucky Block - only positive effects. Unlucky Block - negative effects only. Effects can range from massive destruction to good loot.",
+
+    "desc_ru": "Этот аддон добавляет в игру 3 счастливых блока, которые можно открыть, разбив их. Всего существует 58 различных вещей, которые могут произойти при разбивании счастливых блоков. Обычный удачный блок - все эффекты. Lucky Lucky Block - только положительные эффекты. Unlucky Block - только негативные эффекты. Эффекты могут варьироваться от огромного разрушения до хорошей добычи."
+  },
+  {
+    "images": [
+      {
+        "image": "3_1.jpg"
+      },
+      {
+        "image": "3_2.jpg"
+      },
+      {
+        "image": "3_3.jpg"
+      }
+    ],
+    "file": "3.mcaddon",
+    "title_def": "Rainbow Lucky Block",
+
+    "title_ru": "Rainbow Lucky Block",
+
+    "desc_def": "This Lucky block addon adds new swords, enemies, buildings, bosses and more. By breaking the Rainbow Lucky block, you can get over 300 different items, including magic swords with special abilities, magic balls, new food and many other items. The original Lucky Block has also been added so that Rainbow Lucky Block can be created and of course it fully works. The rainbow lucky block adds various structures such as a giant chest, a desert temple, magic temples with special functions, giant potion bottles, a villager's house, and more for you to discover. The rainbow happy block adds various bosses and enemies like a bomber skeleton that throws explosive arrows at the ground, Joey's rainbow skeleton, living blocks and mini bosses. By breaking the rainbow lucky block, you can get magic swords with special abilities like freezing enemies, setting them on fire, sending them flying, special staves that shoot lightning or create crystal paths to walk through the air, magic balls that they give the effect of a potion. some foods, a medical kit that instantly heals your life, and more. A rainbow stone has also been added, this stone can be found by breaking the rainbow ore that forms on endless worlds below world height Y-15.",
+
+    "desc_ru": "Этот аддон Lucky block добавляет новые мечи, врагов, строения, боссов и многое другое. Разбив блок Rainbow Lucky, можно получить более 300 различных вещей, в том числе волшебные мечи со специальными способностями, волшебные шары, новую еду и многие другие предметы. Также был добавлен оригинальный Lucky Block, так что можно создать Rainbow Lucky Block, и, конечно же, он полностью работает. Радужный счастливый блок добавляет различные сооружения, такие как гигантский сундук, храм в пустыне, волшебные храмы с особыми функциями, гигантские бутылки с зельями, дом деревенского жителя и многое другое, которое тебе придется открыть для себя. Радужный счастливый блок добавляет различных боссов и врагов, таких как скелет бомбардировщика, который бросает взрывные стрелы в землю, скелет радуги Джои, живые блоки и мини-боссов. Разбивая счастливый блок радуги, можно получить магические мечи с особыми способностями, такими как замораживание врагов, поджигание их, отправка в полет, специальные посохи, которые стреляют молниями или создают кристальные дорожки, чтобы ходить по воздуху, волшебные шары, которые они дают эффект зелья, некоторые продукты, медицинский набор, который мгновенно исцеляет вашу жизнь, и многое другое. Также был добавлен радужный камень, этот камень можно найти, разбив радужную руду, которая образуется в бесконечных мирах ниже мировой высоты Y-15."
+  },
+  {
+    "images": [
+      {
+        "image": "4_1.jpg"
+      },
+      {
+        "image": "4_2.jpg"
+      },
+      {
+        "image": "4_3.jpg"
+      },
+      {
+        "image": "4_4.jpg"
+      }
+    ],
+    "file": "4.mcaddon",
+    "title_def": "Astral Lucky Blocks",
+
+    "title_ru": "Astral Lucky Blocks",
+
+    "desc_def": "This addon adds Astral Lucky Block which adds new weapons, blocks, enemies, and more. In total, when this block is hacked, about 300 different things can occur. The original Lucky Block has also been added so that Astral Lucky Block can be created. Astral Lucky Block adds many very interesting structures containing enemies and a boss, a habitable cloud inhabited by a villager, a mushroom house, a mini portal at the end, a fountain of desires. and much more. By destroying the Astral block of luck, you can meet many enemies or friends, such as the Astral hero, who will protect you from enemies, just do not make him angry, Defender of the universe, who will help you in difficult battles, fairies who will restore your life by being near you, they are also very scandalous: the Astral bob that will try to kill you, the Astral mage, the skeleminons, the Skelatron and many others. Astral Lucky Block adds various special items like Astral Sword, Astral Ax, Crystal Sword, Star Cookie, Lucky Apple and more.",
+
+    "desc_ru": "Этот аддон добавляет астральный счастливый блок, который добавляет новое оружие, блоки, врагов и многое другое. Всего при взломе этого блока может возникнуть около 300 различных вещей. Также был добавлен оригинальный Lucky Block, так что можно  создать Astral Lucky Block. Astral Lucky Block добавляет много очень интересных структур, содержащий врагов и босса, обитаемое облако, в котором обитает сельский житель, дом-гриб, мини-портал в конце, фонтан желаний. и многое другое. Разрушив Астральный блок удачи, можно встретить множество врагов или друзей, таких как Астральный герой, который защитит тебя от врагов, только не сердите его, Защитник вселенной, который поможет тебе в сложных битвах, феи, которые восстановят твою жизнь, будучи рядом с тобой, они также очень скандальны: Астральный боб, который попытается убить вас, Астральный маг, скелеминоны, Скелатрон и многие другие. Astral Lucky Block добавляет различные специальные предметы, такие как Astral Sword, Astral Axe, Crystal Sword, Star Cookie, Lucky Apple и другие."
+  },
+  {
+    "images": [
+      {
+        "image": "5_1.jpg"
+      },
+      {
+        "image": "5_2.jpg"
+      },
+      {
+        "image": "5_3.jpg"
+      },
+      {
+        "image": "5_4.jpg"
+      }
+    ],
+    "file": "5.mcaddon",
+    "title_def": "Lucky Blocks",
+
+    "title_ru": "Lucky Blocks",
+
+    "desc_def": "The Lucky Block mod is a great addition to the game. Lucky Block generates structures, mobs, drops, potion effects and much more, plus not only one lucky block was added, but also six more blocks. Added 6 more blocks, a bad block that breaks it most of the time when bad things happen, a luck block that always goes well, and three more almost extra blocks like Lucky Mobs, a block that only generates mobs. Lucky Structures, a block that only generates structures. Lucky Drops, a block that only generates drops. A faded lucky block. In addition, the fountain is fully operational, for it to work, you just need to throw an object into the water. To get a luck block, you need to throw a bottle of experience into a luck block. To get an unsuccessful block, lightning must hit a Lucky block. To get a faded lucky block, you need to kill the wither skeletons. A successful block works in all dimensions and worlds while the experimental mode is active.",
+
+    "desc_ru": "Мод Lucky Block - отличное дополнение к игре. Lucky Block генерирует структуры, мобов, дропы, эффекты зелий и многое другое, плюс был добавлен не только один счастливый блок, но и еще шесть блоков. Добавлено еще 6 блоков, плохой блок, который ломает его большую часть времени, когда случаются плохие вещи, блок удачи, который всегда происходит хорошо, и еще три почти дополнительных блока, например: Lucky Mobs, блок, который генерирует только мобов. Lucky Structures, блок, который только генерирует структуры. Lucky Drops, блок, который генерирует только капли. Выцветший счастливый блок. К тому же фонтан полностью работоспособен, чтобы он заработал, нужно всего лишь бросить какой-нибудь предмет в воду. Чтобы получить блок удачи, нужно бросить бутылку опыта в блок удачи. Чтобы получить неудачный блок, молния должна поразить Удачный блок. Чтобы получить поблекший счастливый блок, нужно убить скелетов-иссушителей. Успешный блок работает во всех измерениях и мирах, пока активен экспериментальный режим."
+  },
+  {
+    "images": [
+      {
+        "image": "6_1.jpg"
+      },
+      {
+        "image": "6_2.jpg"
+      },
+      {
+        "image": "6_3.jpg"
+      },
+      {
+        "image": "6_4.jpg"
+      }
+    ],
+    "file": "6.mcaddon",
+    "title_def": "Lucky Blocks",
+
+    "title_ru": "Lucky Blocks",
+
+    "desc_def": "This addon adds 6 types of lucky blocks: iron, gold, lapis, redstone, diamond and emerald lucky blocks. These lucky blocks can be crafted and will drop many useful items. Violation of these blocks will lead to the fall of many useful resources. All equipment dropped from successful blocks will have a random enchant. Iron Lucky Block - iron equipment and blocks. Gold Lucky Block - Gold gear and ores. Diamond Lucky. Block - Diamond gear and golden apples. Emerald Lucky Block - Netherite Gear and Rare Items. Redstone Lucky Block - Instruments and Quartz. Lapis Lucky Block - Books and amulets. To create lucky blocks, you need to place 8 units of the corresponding ore as the outline of the crafting grid.",
+
+    "desc_ru": "Этот аддон добавляет 6 типов счастливых блоков: железо, золото, ляпис, красный камень, алмазные и изумрудные счастливые блоки. Эти счастливые блоки можно создать, и из них выпадет много полезных предметов. Нарушение этих блоков приведет к падению множества полезных ресурсов. Все оборудование, выпавшее из успешных блоков, будет иметь случайную чару. Iron Lucky Block - железное снаряжение и блоки. Gold Lucky Block - Золотое снаряжение и руды. Diamond Lucky. Block - Алмазная шестеренка и золотые яблоки. Изумрудный удачный блок - Незеритовое снаряжение и редкие предметы. Redstone Lucky Block - инструменты и кварц. Lapis Lucky Block - Книги и амулеты. Чтобы создать счастливые блоки, вам нужно поместить 8 единиц соответствующей руды в качестве контура сетки крафта."
+  },
+  {
+    "images": [
+      {
+        "image": "7_1.jpg"
+      },
+      {
+        "image": "7_2.jpg"
+      }
+    ],
+    "file": "7.mcaddon",
+    "title_def": "King Creeper’s Lucky Blocks",
+
+    "title_ru": "King Creeper’s Lucky Blocks",
+
+    "desc_def": "Try your luck at King Creeper's Lucky Blocks! From treasures to trash, it all depends on your luck! Don't forget to turn on EXPERIMENTAL GAMEPLAY! To get the Lucky Block, look for a gilded liana. Gilded Creepers are neutral utility mobs that will trade with players as well as attack monsters. He is strong and will attack you if you accidentally hit him. Gilded vines look like animals on the surface. Loot on a lucky block can be useless for common items like cactus, rope and sticks, for higher quality items like cooked food, potion sets and armor sets, as well as for rare items like enchanted gear, treasures and even blocks with gems! This is all by accident, so good luck!",
+
+    "desc_ru": "Испытай удачу в игре King Creeper's Lucky Blocks! От сокровищ до мусора - все зависит от твоей удачи! Не забудь включить ЭКСПЕРИМЕНТАЛЬНЫЙ ГЕЙМПЛЕЙ! Чтобы получить Удачный Блок, поищи позолоченную лиану. Позолоченные криперы - это нейтральные вспомогательные мобы, которые будут торговать с игроками, а также атаковать монстров. Он силен и нападет на тебя, если ты случайно ударишь его. Позолоченные виноградные лозы выглядят на поверхности так же, как животные.  Добыча в удачном блоке может быть бесполезной для обычных предметов, таких как кактус, веревка и палки, для предметов более высокого качества, таких как приготовленная еда, наборы зелий и комплекты брони, а также для редких предметов, таких как зачарованное снаряжение, сокровища и даже блоки с драгоценными камнями! Все это случайно, так что удачи!"
+  },
+  {
+    "images": [
+      {
+        "image": "8_1.jpg"
+      }
+    ],
+    "file": "8.mcaddon",
+    "title_def": "Best Lucky Block",
+
+    "title_ru": "Best Lucky Block",
+
+    "desc_def": "This add-on adds Lucky Block to the game. He can give different items when this block breaks. It is impossible to predict what will come of this. If you want this block to appear in the world, activate the package before creating the world. What can be obtained from it: magic items, redstone tools food and more.",
+
+    "desc_ru": "Это дополнение добавляет в игру Удачный блок. Он может давать разные предметы, когда разбвается этот блок. Что из этого выйдет, предсказать невозможно. Если ты хочешь, чтобы этот блок появляся в мире, активируй пакет перед созданием мира. Что из него можно получить: магические предметы, инструменты из красного камня, еду и многое другое."
+  },
+  {
+    "images": [
+      {
+        "image": "9_1.jpg"
+      },
+      {
+        "image": "9_2.jpg"
+      }
+    ],
+    "file": "9.mcpack",
+    "title_def": "Lucky Block Addon",
+
+    "title_ru": "Lucky Block Addon",
+
+    "desc_def": "This addon aims to create a complete successful block! These lucky blocks drop valuable items, hordes of mobs, super-enchanted items, and deadly constructs, just to name a few. Currently, Lucky Blocks are entities that spawn in most biomes on the surface of the world. You can also invoke a lucky block with the / summon lucky: lucky_block command. ... To open a lucky block, just hit it. A lot of things can happen, both good and bad.",
+
+    "desc_ru": "Этот аддон направлен на создание полноценного успешного блока! Эти счастливые блоки сбрасывают ценные предметы, орды мобов, супер-зачарованные предметы и смертоносные конструкции, и это лишь некоторые из них. В настоящее время Удачные блоки - это сущности, которые появляются в большинстве биомов на поверхности мира. Также можно вызвать счастливый блок с помощью команды / summon lucky: lucky_block. ... Чтобы открыть счастливый блок, просто ударьте по нему. Может случиться много чего, как хорошего, так и плохого."
+  },
+  {
+    "images": [
+      {
+        "image": "10_1.jpg"
+      },
+       {
+        "image": "10_2.jpg"
+      }
+    ],
+    "file": "10.mcaddon",
+    "title_def": "Lucky Block",
+
+    "title_ru": " Lucky Block",
+
+    "desc_def": "Lucky Block is a case where this add-on presents over 100 random possible events. Lucky Block has complete randomness. 100 possible bad or good things can happen. The Lucky Block is a yellow block with a white question mark that can be crafted with an eyedropper, surrounded by eight gold bars.",
+
+    "desc_ru": "Lucky Block - это случай, когда это дополнение представляет более 100 случайных возможных событий. Lucky Block имеет полную случайность. 100 возможных плохих или хороших событий могут произойти. Удачный блок - это желтый блок с белым вопросительным знаком, который можно создать с помощью пипетки, окруженный восемью золотыми слитками. "
+  },
+  {
+    "images": [
+      {
+        "image": "11_1.jpg"
+      },
+      {
+        "image": "11_2.jpg"
+      },
+      {
+        "image": "11_3.jpg"
+      }
+    ],
+    "file": "11.mcaddon",
+    "title_def": "Lucky Block Add-on",
+
+    "title_ru": "Lucky Block Add-on",
+
+    "desc_def": "This add-on adds Lucky Block (which is really just an entity) to the game. When the Lucky Block is broken, something random will happen. This can be anything from getting free diamonds to the appearance of a hostile creeper. Sometimes you are lucky and sometimes not! You can use the Lucky Block summon egg to create it, or use the / summon command. Hit the Lucky Block to make something happen!",
+
+    "desc_ru": "Это дополнение добавляет в игру Lucky Block (который на самом деле является просто сущностью). При разбивании Удачного блока произойдет что-то случайное. Это может быть что угодно, от получения бесплатных алмазов до появления враждебного крипера. Иногда везет, а иногда нет! Можно использовать яйцо призыва Lucky Block, чтобы создать его, или использовать команду / summon. Ударь Удачный блок, чтобы что-нибудь произошло!"
+  },
+  {
+    "images": [
+      {
+        "image": "12_1.jpg"
+      },
+      {
+        "image": "12_2.jpg"
+      },
+      {
+        "image": "12_3.jpg"
+      }
+    ],
+    "file": "12.mcaddon",
+    "title_def": "Lucky Block",
+
+    "title_ru": "Lucky Block",
+
+    "desc_def": "This add-on adds lucky blocks. If smashed, they will drop random items like diamonds, dirt, emerald, gold, rocks, armor, or a dragon egg. Sometimes even enchanted apples drop out of the block. To get or create a lucky block, you need iron ingots and 1 chest.",
+
+    "desc_ru": "Это дополнение добавляет удачные блоки. Если их разбить, они будут сбрасывать случайные предметы, такие как алмазы, грязь, изумруд, золото, скалы, доспехи или яйцо дракона. Иногда из блока выпадают даже зачарованные яблоки. Чтобы получить или создать счастливый блок понадобятся железные слитки и 1 сундук."
+  },
+  {
+    "images": [
+      {
+        "image": "13_1.jpg"
+      },
+      {
+        "image": "13_2.jpg"
+      }
+    ],
+    "file": "13.mcpack",
+    "title_def": "Hardcore Lucky Block",
+
+    "title_ru": "Hardcore Lucky Block",
+
+    "desc_def": "This addon takes the lucky block to the next level. You will most likely experience mixed emotions when you find block of them. Most of the time, when you break one, something terrible happens. This can include everything from explosions to monsters. But there are exceptions, because sometimes, on very rare occasions, something incredible happens. The pig is replaced by a hardcore lucky block. It's not exactly a block, but it looks like it. You can find them naturally spawning in the world, or you can create them with a Pig Summoning Egg. Sometimes (on very rare occasions) something good happens. For example, a bunch of diamond items. But then again, something very terrible can happen, for example, the lingering effect of a potion. I recommend that you always carry some kind of weapon with you when destroying one of these blocks.",
+
+    "desc_ru": "Этот аддон выводит счастливый блок на новый уровень. Скорее всего, ты испытаешь смешанные эмоции, когда найдешь один из них. В большинстве случаев, когда ты ломаешь блок, происходит что-то ужасное. Это может включать в себя все, от взрывов до появления монстров. Но есть исключения, потому что иногда, в очень редких случаях, случается что-то невероятное. Свинья заменяется хардкорным удачным блоком. Это не совсем блок, но похоже на него. Можно найти его естественным образом нерестившимся в мире или создать их с помощью яйца призывания свиньи.Иногда (в очень редких случаях) происходит что-то хорошее. Например, куча бриллиантовых предметов. Но опять же может случиться что-то очень ужасное, например, затяжной эффект зелья. Я рекомендую вам всегда иметь при себе какое-нибудь оружие при уничтожении одного из этих блоков."
+  },
+  {
+    "images": [
+      {
+        "image": "14_1.jpg"
+      },
+      {
+        "image": "14_2.jpg"
+      },
+      {
+        "image": "14_3.jpg"
+      }
+    ],
+    "file": "14.mcpack",
+    "title_def": "Lucky Blocks",
+
+    "title_ru": "Lucky Blocks",
+
+    "desc_def": "This is an addon that turns husk into a lucky block. A lucky block is like a chest in the sense that it adds an immersive moment to the game because you never know what you'll get. Break the block and make sure your luck is on your side! Since the lucky block replaces the husk, you will have to travel to the desert to find it in survival mode. Hit it once to destroy it. This Lucky Block addon has a good selection of items that can spawn, including less valuable ones. This makes it more exciting. There are 37 different items that can spawn: iron ingot, melon, fermented spider eye, golden carrot, diamond horse armor, brick, fish, wart, voids, diamond gold ingot, redstone, charcoal, magma, cream slime ball, cauldron , cooking stand, enchanted apple, bottle of experience, fire paw, rabbit, star flame, Void, Powder.",
+
+    "desc_ru": "Это аддон, который превращает шелуху в удачный блок. Удачный блок похож на сундук в том смысле, что он добавляет игре захватывающий момент, потому что ты никогда не знаешь, что получишь. Разбей блок и убедись, что удача на твоей стороне! Так как счастливый блок заменяет шелуху, придется отправиться в пустыню, чтобы найти ее в режиме выживания.  Ударь по нему один раз, чтобы уничтожить. В аддоне Lucky Block есть хороший выбор предметов, которые могут появиться, в том числе менее ценные. Это делает его более захватывающим. Есть 37 различных предметов, которые могут появиться: железный слиток, дыня, ферментированный глаз паука, золотая морковь, алмазная броня лошади, кирпич, рыба, бородавка, пустоты, алмазный золотой слиток, красный камень, древесный уголь, магма, кремовый шар слизи, котел, подставка для варки, зачарованное яблоко, бутылка опыта, огненная лапа, кролик, пламя звезды, Пустоты, Порошок."
+  },
+  {
+    "images": [
+      {
+        "image": "15_1.jpg"
+      },
+      {
+        "image": "15_2.jpg"
+      },
+      {
+        "image": "15_3.jpg"
+      }
+      
+    ],
+    "file": "15.mcpack",
+    "title_def": "Lucky Blocks",
+
+    "title_ru": "Lucky Blocks",
+
+    "desc_def": "This addon adds a block of luck. Every time a player gets it, he will definitely receive valuable treasures, but since they only appear in the Void, they are rather difficult to find. At least in the natural world without the use of spawning eggs. To find the lucky block in survival mode, you need to travel to the Nether and find the Nether's fortress. The reason you can find them here is because it is a wither skeleton that has been replaced with a lucky block. This is a great excuse to go to the Void. But it is also a useful feature because it gives you a better chance of surviving in very harsh conditions. Moreover, it will only spawn valuable items. Every time a lucky block breaks, it always spawns burgers and sometimes a Poke Ball.",
+
+    "desc_ru": "Этот аддон добавляет блок удачи. Каждый раз, когда игрок его добывает, он обязательно будет получать ценные сокровища, но, поскольку они появляются только в Пустоте, их довольно сложно найти. По крайней мере, в естественном мире без использования яйца нереста. Чтобы найти счастливый блок в режиме выживания, нужно отправиться в Пустоту и найти крепость Пустоты. Причина, по которой можно найти их здесь, заключается в том, что это скелет-иссушитель, который был заменен удачным блоком. Это отличный повод отправиться в Пустоту. Но это также полезная функция, потому что она дает  больше шансов выжить в очень суровых условиях. Более того, он будет порождать только ценные предметы. Каждый раз, когда разбивается счастливый блок, он всегда порождает гамбургеры, а иногда и Poke Ball."
+  },
+  {
+    "images": [
+      {
+        "image": "16_1.jpg"
+      },
+      {
+        "image": "16_2.jpg"
+      },
+      {
+        "image": "16_3.jpg"
+      },
+      {
+        "image": "16_4.jpg"
+      }
+    ],
+    "file": "16.mcaddon",
+    "title_def": "LuckyBlocks",
+
+    "title_ru": "LuckyBlocks",
+
+    "desc_def": "This is the new luckyblock addon! Hack these blocks and see what they have to offer! Choose from normal, unlucky, really lucky and ore LuckyBlocks! There are eight LuckyBlocks. Each LuckyBlock drops different items depending on their type. Normal drops everything, Loser drops useless items, Really Lucky drops valuable items, and from ore LuckyBlocks any item related to the type of ore.",
+
+    "desc_ru": "Это новый аддон luckyblock! Взломай эти блоки и посмотри, что они могут предложить! Выбирай из нормального, неудачного, действительно удачного и рудного LuckyBlocks! Cуществует восемь LuckyBlocks. Из каждого LuckyBlock выпадают разные предметы в зависимости от их типа. Обычный бросает все, Неудачник - бесполезные вещи, Реально Удачливый - ценные предметы, а из рудных LuckyBlocks - любой предмет, связанный с типом руды."
+  },
+  {
+    "images": [
+      {
+        "image": "17_1.jpg"
+      },
+      {
+        "image": "17_2.jpg"
+      }
+    ],
+    "file": "17.mcaddon",
+    "title_def": "Lucky Boxes",
+
+    "title_ru": "Lucky Boxes ",
+
+    "desc_def": "Brighten up your survival with the Lucky Boxes addon, collect the necessary items to create your lucky box. The Lucky Boxes addon adds 6 new Lucky Boxes to the game, as well as new items. Opening one of them may be lucky enough to get good loot, or unlucky loot, or even a hostile mob emerging from the crate to attack. To create a box you will need a main item and some vanilla items and / or blocks. Primary items can be crafted by combining certain vanilla items in a crafting table. You will need a magic pickaxe to open the boxes and a diamond key to open a mysterious chest. The Wooden Box is the lowest valuable loot. From any items that are easy to obtain in the world, to items that can be obtained by fishing (excluding enchanted armor / tools / books). It is also the safest, hostile mobs will not leave it. The Steel Box has mid-value loot from the outside world, from enchanted books to iron and gold armor / tools and some other mid-value items. But beware, hostile mobs can get out of it! The Sea Chest contains loot related to the oceans. Also hostile mobs can come out from there. The Nether Box has lower dimension loot. And hostile mobs from the underworld can come out of this box. Box of Diamonds: This box contains the most valuable loot, ranging from enchanted apples to music CDs and some other fun stuff. But since it has valuable loot, difficult hostile mobs can come out of it. Mysterious Chest: This mighty chest is the most difficult to craft in this expansion, but it also has extremely valuable loot, ranging from enchanted diamond armor / tools to piles of diamonds and emeralds and other things like being dropped from bosses, but this rarely happens. Also, hostile mobs can come out of it, or maybe an explosion?",
+
+    "desc_ru": "Сделай свое выживание более ярким с помощью аддона Lucky Boxes, собери необходимые элементы, чтобы создать свой счастливый ящик. Аддон Lucky Boxes добавляет в игру 6 новых счастливых ящиков, а также новые предметы. При открытии одного из них может повезти получить хорошую добычу, или неудачную добычу, или даже враждебного моба, выходящего из ящика, чтобы атаковать. Чтобы создать коробку понадобится основной элемент и несколько ванильных предметов и / или блоков. Первичные элементы можно создать, комбинируя определенные ванильные предметы в верстаке. Тебе понадобится волшебная кирка, чтобы открывать коробки, и алмазный ключ, чтобы открыть таинственный сундук. Деревянный ящик - самый низкий по ценной добыче. От любых предметов, которые легко получить в мире, до вещей, которые можно получить на рыбалке (за исключением зачарованных доспехов / инструментов / книг). Также он самый безопасный, из него не выйдут враждебные мобы. В Steel Box есть среднеценная добыча из внешнего мира, от зачарованных книг до железных и золотых доспехов / инструментов и некоторых других предметов средней ценности. Но берегись, враждебные мобы могут выйти из него! В Морском сундуке есть добыча, связанная с океанами. Также оттуда могут выходить враждебные мобы. В Nether Box есть добыча, связанная с нижним измерением. И из этого ящика могут выйти враждебные мобы из преисподней. Коробка с бриллиантами: в этой коробке находится самая ценная добыча, начиная от зачарованных яблок и заканчивая музыкальными дисками и некоторыми другими интересными вещами. Но поскольку у него ценный лут, из него могут выйти непростые враждебные мобы. Таинственный сундук: этот могучий сундук - самый сложный в изготовлении в этом дополнении, но он также имеет чрезвычайно ценную добычу, начиная от зачарованной алмазной брони / инструментов до груд алмазов и изумрудов и других вещей, таких как выпадение с боссов, но это редко произойдет. Также из него могут выйти враждебные мобы, а может, взрыв?"
+  },
+  {
+    "images": [
+      {
+        "image": "18_1.jpg"
+      },
+      {
+        "image": "18_2.jpg"
+      }
+    ],
+    "file": "18.mcpack",
+    "title_def": "Lucky Balls",
+
+    "title_ru": "Lucky Balls ",
+
+    "desc_def": "This addon is a combination of luck blocks, pigs and throwing eggs. If you are looking for something unusual, try this mod! The eggs have been replaced with lucky balls, which means finding the chickens. Throw 1-2 balls of luck on the ground to summon a bunch of rabid pigs. The pigs will automatically start fighting each other to the death. When pigs die, they will drop many different items, and most of them are actually quite valuable. Just wait and let them fight before you collect these treasures. Here you can find all the items dropped by the pigs. This is every miner's dream. Everything from precious diamonds to iron swords and pickaxes.",
+
+    "desc_ru": "Этот аддон представляет собой комбинацию блоков удачи, свиней и метательных яиц. Если вы ищете что-то необычное, попробуй этот мод! Яйца были заменены счастливыми шариками, а это значит, что нужно найти цыплят. Брось 1-2 шарика удачи на землю, чтобы вызвать кучу бешеных свиней. Свиньи автоматически начнут драться друг с другом до смерти. Когда свиньи умирают, с них будет выпадать много разных предметов, и большинство из них на самом деле весьма ценны. Просто подождите и позвольте им сразиться, прежде чем вы соберете эти сокровища. Здесь можно найти все предметы, которые сбросили свиньи. Это мечта каждого шахтера. Все, от драгоценных алмазов до железных мечей и кирок."
+  },
+  {
+    "images": [
+      {
+        "image": "19_1.jpg"
+      },
+      {
+        "image": "19_2.jpg"
+      },
+      {
+        "image": "19_3.jpg"
+      }
+    ],
+    "file": "19.mcpack",
+    "title_def": "Official’s Lucky Block",
+
+    "title_ru": "Official’s Lucky Block",
+
+    "desc_def": "This addon adds a total of 6 lucky block types! 1. Successful block! (Classic blocks) 2. Leather Lucky Block! (Gives leather loot and armor!) 3. Iron lucky block! (Gives iron loot and armor!) 4. Golden Lucky Block! 5. Diamond Lucky Block! (Gives diamond loot and armor!) 6. Lucky Netherite Block! (Gives Netherite Loot and Armor!).",
+
+    "desc_ru": "Этот аддон добавляет в общей сложности 6 счастливых типов блоков!  1. Удачный блок! (Классические блоки) 2. Кожаный Lucky Block! (Дает кожаную добычу и броню!) 3. Железный удачный блок! (Дает железную добычу и броню!) 4. Золотой счастливый блок!  5. Diamond Lucky Block! (Дает алмазную добычу и броню!) 6. Удачный блок Незерита! (Дает незеритовую добычу и броню!). "
+  },{
+    "images": [
+      {
+        "image": "20_1.jpg"
+      }
+    ],
+    "file": "20.mcpack",
+    "title_def": "Lucky Bonus",
+
+    "title_ru": "Lucky Bonus",
+
+    "desc_def": "The lucky bonus increases the likelihood of much more valuable items spawning in chests, which can be found in strongholds, dungeons, and other places where chests are often crafted. Emeralds, iron, diamonds, and just about any other item that is considered valuable are examples of new items that may appear in chests. Any of the chests are now much more likely to find valuable items. Arrows in dispensers (in citadels) have been replaced with diamonds.",
+
+    "desc_ru": "Счастливый бонус увеличивает вероятность появления гораздо более ценных предметов в сундуках, которые можно найти в цитаделях, подземельях и других местах, где сундуки часто создаются. Изумруды, железо, алмазы и практически любые другие предметы, которые считаются ценными, являются примерами новых предметов, которые могут появиться в сундуках. В любом из сундуков теперь гораздо больше шансов найти ценные предметы. Стрелки в раздатчиках (в цитаделях) заменены на алмазы. "
+  }
+]

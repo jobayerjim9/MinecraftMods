@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+    <data>
+        <variable
+            name="data"
+            type="com.carotalz.minecraftmods.models.ModModel" />
+    </data>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:fillViewport="true"
+        android:layout_height="match_parent">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:fitsSystemWindows="false"
+            tools:context=".ui.fragment.DetailsFragment">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:background="@drawable/rounded_rect"
+                android:elevation="1dp"
+                android:gravity="center"
+                android:orientation="vertical"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
+
+                <ImageView
+                    android:id="@+id/back"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/ic_back" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/itemTitle2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginEnd="16dp"
+                android:fontFamily="@font/roboto_bold"
+                android:text="@{data.title_def}"
+                android:textColor="@color/white"
+                android:textSize="20sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/indicator"
+                tools:text="Mine-Furniture Addon (v5)" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:layout_marginEnd="16dp"
+                android:layout_marginBottom="16dp"
+                android:text="@{data.desc_def}"
+                android:textColor="@color/secondary_text_item"
+                android:textSize="16sp"
+                app:layout_constraintBottom_toTopOf="@+id/downloadButton"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="@+id/itemTitle2"
+                app:layout_constraintTop_toBottomOf="@+id/itemTitle2"
+                app:layout_constraintVertical_bias="0.0"
+                tools:text="Et velit nulla exercitation deserunt proident consequat. Ea exercitation non nisi cupidatat magna Lorem culpa irure cillum. Deserunt eiusmod labore eiusmod quis. Nostrud do non dolor consequat cillum sit. Esse nostrud cillum dolore nulla eu elit est id mollit aliqua nulla Lorem cillum sunt. Labore ut magna esse do enim occaecat. Laboris anim exercitation incididunt reprehenderit.
+t velit nulla exercitation deserunt proident consequat. " />
+
+            <androidx.viewpager.widget.ViewPager
+                android:id="@+id/detailsSlider"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <me.relex.circleindicator.CircleIndicator
+                android:id="@+id/indicator"
+                android:layout_width="0dp"
+                android:layout_height="48dp"
+                android:layout_marginTop="190dp"
+                app:layout_constraintEnd_toEndOf="@+id/detailsSlider"
+                app:layout_constraintStart_toStartOf="@+id/detailsSlider"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <LinearLayout
+                android:id="@+id/downloadButton"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="24dp"
+                android:layout_marginEnd="24dp"
+                android:layout_marginBottom="16dp"
+                android:background="@drawable/rect_background"
+                android:clickable="true"
+                android:foreground="?attr/selectableItemBackground"
+                android:gravity="center_vertical"
+                android:orientation="vertical"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent">
+
+                <TextView
+                    android:id="@+id/downloadText"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:fontFamily="@font/roboto_bold"
+                    android:foregroundGravity="center_vertical"
+                    android:gravity="center_vertical"
+                    android:text="@string/download"
+                    android:textAlignment="center"
+                    android:textColor="@color/white"
+                    android:textSize="24sp" />
+            </LinearLayout>
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </ScrollView>
+</layout>

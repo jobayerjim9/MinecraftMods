@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/blue"
+        tools:context=".ui.activity.MainActivity">
+
+        <FrameLayout
+            android:id="@+id/container"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            app:layout_constraintBottom_toTopOf="@+id/homeTabLayout"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0">
+
+        </FrameLayout>
+
+        <com.google.android.material.tabs.TabLayout
+            android:id="@+id/homeTabLayout"
+            style="@style/MyCustomTabLayout"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:background="@color/tab_background"
+            android:elevation="8dp"
+            android:focusable="auto"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:tabIconTint="@android:color/transparent"
+            app:tabIconTintMode="add"
+            app:tabIndicator="@android:drawable/screen_background_light_transparent"
+            app:tabIndicatorColor="#FFFFFF"
+            app:tabSelectedTextColor="@color/tab_text_active"
+            app:tabTextColor="@color/tab_text_inactive">
+
+            <com.google.android.material.tabs.TabItem
+                android:id="@+id/modTabs"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:icon="@drawable/mod_tab_icon"
+                android:text="@string/mods" />
+
+            <com.google.android.material.tabs.TabItem
+                android:id="@+id/favoriteTab"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:focusable="auto"
+                android:icon="@drawable/fav_tab_icon"
+                android:text="@string/favorite" />
+        </com.google.android.material.tabs.TabLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>

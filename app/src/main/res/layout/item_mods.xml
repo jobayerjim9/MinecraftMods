@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+    <data>
+        <variable
+            name="data"
+            type="com.carotalz.minecraftmods.models.ModModel" />
+    </data>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/item"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:background="@color/blue">
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/favButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="16dp"
+            android:clickable="true"
+            android:foreground="?attr/selectableItemBackground"
+            app:cardBackgroundColor="@color/blue"
+            app:cardCornerRadius="64dp"
+            app:cardElevation="8dp"
+            app:cardMaxElevation="8dp"
+            app:contentPadding="8dp"
+            app:layout_constraintEnd_toEndOf="@+id/itemBanner"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <ImageView
+                android:id="@+id/favIcon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/ic_favorite_tab_inactive"
+                app:tint="@color/tab_text_active" />
+        </androidx.cardview.widget.CardView>
+
+        <ImageView
+            android:id="@+id/itemBanner"
+            android:layout_width="0dp"
+            android:layout_height="200dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="22dp"
+            android:layout_marginEnd="16dp"
+            android:scaleType="fitXY"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/item_placeholder" />
+
+        <TextView
+            android:id="@+id/itemTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:fontFamily="@font/roboto_bold"
+            android:text="@{data.title_def}"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            app:layout_constraintStart_toStartOf="@+id/itemBanner"
+            app:layout_constraintTop_toBottomOf="@+id/itemBanner"
+            tools:text="Mine-Furniture Addon (v5)" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="16dp"
+            android:lines="2"
+            android:maxLines="2"
+            android:text="@{data.desc_def}"
+            android:textColor="@color/secondary_text_item"
+            android:textSize="16sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="@+id/itemBanner"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="@+id/itemTitle"
+            app:layout_constraintTop_toBottomOf="@+id/itemTitle"
+            tools:text="This addon incudes more than 20 different modern styled texturer..." />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>
