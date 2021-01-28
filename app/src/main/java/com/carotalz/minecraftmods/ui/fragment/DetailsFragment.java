@@ -79,7 +79,7 @@ public class DetailsFragment extends Fragment {
 
     private void init() {
         isStoragePermissionGranted();
-        rootFolder = new File(Environment.getExternalStorageDirectory()+ Constants.MAIN_FOLDER);
+        rootFolder = new File(Environment.getExternalStorageDirectory() + Constants.MAIN_FOLDER);
         ImageSliderAdapter imageSliderAdapter = new ImageSliderAdapter(requireContext(), modModel.getImages());
         binding.detailsSlider.setAdapter(imageSliderAdapter);
         binding.indicator.setViewPager(binding.detailsSlider);
@@ -89,12 +89,12 @@ public class DetailsFragment extends Fragment {
                 downloadContent();
             }
         });
-//        binding.back.setOnClickListener(new View.OnClickListener() {
-//            @Override
-//            public void onClick(View v) {
-//                fragmentManager.popBackStack();
-//            }
-//        });
+        binding.back.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                fragmentManager.popBackStack();
+            }
+        });
     }
 
     String text;

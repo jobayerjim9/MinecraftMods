@@ -57,7 +57,7 @@ public class MainActivity extends AppCompatActivity {
                     FragmentManager fragmentManager = getSupportFragmentManager();
                     fragmentManager.popBackStack();
                     fragmentManager.beginTransaction()
-                            .replace(R.id.container, new FavoriteFragment(getSupportFragmentManager()), "favourite")
+                            .replace(R.id.container, new FavoriteFragment(getSupportFragmentManager()), "favorite")
                             .setReorderingAllowed(true)
                             .addToBackStack("favorite") // name can be null
                             .commit();
@@ -72,7 +72,24 @@ public class MainActivity extends AppCompatActivity {
 
             @Override
             public void onTabReselected(TabLayout.Tab tab) {
+                if (binding.homeTabLayout.getSelectedTabPosition() == 0) {
+                    FragmentManager fragmentManager = getSupportFragmentManager();
+                    fragmentManager.popBackStack();
+                    fragmentManager.beginTransaction()
+                            .replace(R.id.container, new ModsFragment(getSupportFragmentManager()), "mods")
+                            .setReorderingAllowed(true)
+                            .addToBackStack("mods") // name can be null
+                            .commit();
+                } else if (binding.homeTabLayout.getSelectedTabPosition() == 1) {
+                    FragmentManager fragmentManager = getSupportFragmentManager();
+                    fragmentManager.popBackStack();
+                    fragmentManager.beginTransaction()
+                            .replace(R.id.container, new FavoriteFragment(getSupportFragmentManager()), "favourite")
+                            .setReorderingAllowed(true)
+                            .addToBackStack("favorite") // name can be null
+                            .commit();
 
+                }
             }
         });
 

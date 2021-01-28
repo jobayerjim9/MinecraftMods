@@ -43,8 +43,11 @@ public class SplashActivity extends AppCompatActivity {
             }.getType();
             ArrayList<ModModel> modModels = gson.fromJson(jsonData, listUserType);
             if (modModels!=null) {
+                for (int i = 0; i < modModels.size(); i++) {
+                    modModels.get(i).setId(i);
+                }
                 tinyDB.putListObject(Constants.MOD_DATA_KEY, modModels);
-                tinyDB.putBoolean(Constants.FIRST_OPEN_KEY,true);
+                tinyDB.putBoolean(Constants.FIRST_OPEN_KEY, true);
             } else {
                 Toast.makeText(this, getString(R.string.something_error), Toast.LENGTH_SHORT).show();
             }

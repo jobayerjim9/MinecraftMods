@@ -24,7 +24,8 @@ import java.util.ArrayList;
 public class FavoriteFragment extends Fragment {
     private FragmentManager fragmentManager;
     private FragmentFavoriteBinding binding;
-    private ArrayList<ModModel> modModels=new ArrayList<>();
+    private ArrayList<ModModel> favModels = new ArrayList<>();
+    private ArrayList<ModModel> modModels = new ArrayList<>();
     private ModsAdapter modsAdapter;
     public FavoriteFragment(FragmentManager fragmentManager) {
         this.fragmentManager = fragmentManager;
@@ -40,21 +41,28 @@ public class FavoriteFragment extends Fragment {
 
     private void init() {
         binding.favRecycler.setLayoutManager(new LinearLayoutManager(requireContext()));
-        modsAdapter=new ModsAdapter(requireContext(),modModels,fragmentManager);
+        modsAdapter = new ModsAdapter(requireContext(), favModels, fragmentManager);
         binding.favRecycler.setAdapter(modsAdapter);
         getAllFavData();
     }
 
+    @Override
+    public void onResume() {
+        super.onResume();
+        getAllFavData();
+    }
+
     private void getAllFavData() {
+        favModels.clear();
         modModels.clear();
-        TinyDB tinyDB=new TinyDB(requireContext());
-        ArrayList<ModModel> temp=tinyDB.getListObject(Constants.MOD_DATA_KEY);
-        for (ModModel mod:temp) {
+        TinyDB tinyDB = new TinyDB(requireContext());
+        modModels.addAll(tinyDB.getListObject(Constants.MOD_DATA_KEY));
+        for (ModModel mod : modModels) {
             if (mod.isFavourite()) {
-                modModels.add(mod);
+                favModels.add(mod);
             }
         }
-        binding.setSize(modModels.size());
+        binding.setSize(favModels.size());
         modsAdapter.notifyDataSetChanged();
 
     }

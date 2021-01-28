@@ -8,6 +8,8 @@ import java.io.Serializable;
 import java.util.ArrayList;
 
 public class ModModel implements Serializable {
+    @SerializedName("id")
+    private int id;
     @SerializedName("images")
     private ArrayList<Images> images;
     @SerializedName("file")
@@ -24,6 +26,14 @@ public class ModModel implements Serializable {
     private boolean favourite;
 
     public ModModel() {
+    }
+
+    public int getId() {
+        return id;
+    }
+
+    public void setId(int id) {
+        this.id = id;
     }
 
     public boolean isFavourite() {
