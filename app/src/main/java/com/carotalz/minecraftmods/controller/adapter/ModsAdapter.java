@@ -26,6 +26,9 @@ import java.io.IOException;
 import java.io.InputStream;
 import java.util.ArrayList;
 
+import static com.carotalz.minecraftmods.models.Constants.DETAILS_FRAGMENT_TAG;
+import static com.carotalz.minecraftmods.models.Constants.FAVOURITE_FRAGMENT_TAG;
+
 public class ModsAdapter extends RecyclerView.Adapter<ModsAdapter.ViewHolder> {
     private Context context;
     private ArrayList<ModModel> modModels;
@@ -78,7 +81,7 @@ public class ModsAdapter extends RecyclerView.Adapter<ModsAdapter.ViewHolder> {
                 }
                 tinyDB.putListObject(Constants.MOD_DATA_KEY, allData);
                 notifyDataSetChanged();
-                FavoriteFragment favoriteFragment = (FavoriteFragment) fragmentManager.findFragmentByTag("favorite");
+                FavoriteFragment favoriteFragment = (FavoriteFragment) fragmentManager.findFragmentByTag(FAVOURITE_FRAGMENT_TAG);
                 if (favoriteFragment != null) {
                     favoriteFragment.onResume();
                 }
@@ -88,8 +91,8 @@ public class ModsAdapter extends RecyclerView.Adapter<ModsAdapter.ViewHolder> {
             @Override
             public void onClick(View v) {
                 FragmentTransaction transaction = fragmentManager.beginTransaction();
-                transaction.replace(R.id.container, new DetailsFragment(modModel, fragmentManager), "Details Fragment" + position);
-                transaction.addToBackStack(null);
+                transaction.replace(R.id.container, new DetailsFragment(modModel, fragmentManager), DETAILS_FRAGMENT_TAG);
+                transaction.addToBackStack(DETAILS_FRAGMENT_TAG);
                 transaction.commit();
             }
         });

@@ -12,6 +12,8 @@ import android.net.Uri;
 import android.os.Build;
 import android.os.Bundle;
 
+import androidx.activity.OnBackPressedCallback;
+import androidx.annotation.Nullable;
 import androidx.core.app.ActivityCompat;
 import androidx.core.content.ContextCompat;
 import androidx.core.content.FileProvider;
@@ -56,11 +58,27 @@ public class DetailsFragment extends Fragment {
     @Override
     public void onDestroy() {
         super.onDestroy();
-        if (content!=null) {
+        if (content != null) {
             FilesKt.deleteRecursively(content);
         }
     }
 
+    @Override
+    public void onCreate(@Nullable Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+
+        // This callback will only be called when MyFragment is at least Started.
+        OnBackPressedCallback callback = new OnBackPressedCallback(true /* enabled by default */) {
+            @Override
+            public void handleOnBackPressed() {
+                // Handle the back button event
+                fragmentManager.popBackStack();
+            }
+        };
+        requireActivity().getOnBackPressedDispatcher().addCallback(this, callback);
+
+        // The callback can be enabled or disabled here or in handleOnBackPressed()
+    }
     public DetailsFragment(ModModel modModel,FragmentManager fragmentManager) {
         this.modModel = modModel;
         this.fragmentManager=fragmentManager;
