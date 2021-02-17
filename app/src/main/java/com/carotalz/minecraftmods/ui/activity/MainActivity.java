@@ -75,27 +75,27 @@ public class MainActivity extends AppCompatActivity {
 
             @Override
             public void onTabReselected(TabLayout.Tab tab) {
-
-            }
-        });
-        getSupportFragmentManager().addOnBackStackChangedListener(new FragmentManager.OnBackStackChangedListener() {
-            @Override
-            public void onBackStackChanged() {
-                FavoriteFragment favoriteFragment = (FavoriteFragment) getSupportFragmentManager().findFragmentByTag(FAVOURITE_FRAGMENT_TAG);
-                ModsFragment modsFragment = (ModsFragment) getSupportFragmentManager().findFragmentByTag(MOD_FRAGMENT_TAG);
-                if (modsFragment != null && modsFragment.isVisible()) {
-                    TabLayout.Tab tab = binding.homeTabLayout.getTabAt(0);
-                    tab.select();
-                    count++;
-                    Log.d("currentView", "Mods Fragment");
-                }
-                if (favoriteFragment != null && favoriteFragment.isVisible()) {
-                    TabLayout.Tab tab = binding.homeTabLayout.getTabAt(1);
-                    tab.select();
+                if (binding.homeTabLayout.getSelectedTabPosition() == 0) {
+                    Log.d("tabSelected", "Mod Tab");
+                    FragmentManager fragmentManager = getSupportFragmentManager();
+                    fragmentManager.popBackStack();
+                    fragmentManager.beginTransaction()
+                            .replace(R.id.container, new ModsFragment(getSupportFragmentManager()), MOD_FRAGMENT_TAG)
+                            .setReorderingAllowed(true)
+                            .addToBackStack(MOD_FRAGMENT_TAG) // name can be null
+                            .commit();
+                } else if (binding.homeTabLayout.getSelectedTabPosition() == 1) {
                     count = 0;
-                    Log.d("currentView", "Fav Fragment");
-                }
+                    Log.d("tabSelected", "Fav Tab");
+                    FragmentManager fragmentManager = getSupportFragmentManager();
+                    fragmentManager.popBackStack();
+                    fragmentManager.beginTransaction()
+                            .replace(R.id.container, new FavoriteFragment(getSupportFragmentManager()), FAVOURITE_FRAGMENT_TAG)
+                            .setReorderingAllowed(true)
+                            .addToBackStack(FAVOURITE_FRAGMENT_TAG) // name can be null
+                            .commit();
 
+                }
             }
         });
     }
@@ -129,6 +129,7 @@ public class MainActivity extends AppCompatActivity {
             super.onBackPressed();
         } else if (getSupportFragmentManager().getBackStackEntryCount() > 0) {
             getSupportFragmentManager().popBackStack();
+
         } else {
             count++;
             if (count > 0) {
@@ -136,7 +137,18 @@ public class MainActivity extends AppCompatActivity {
             }
         }
 
-
+        if (modsFragment != null && modsFragment.isVisible()) {
+            TabLayout.Tab tab = binding.homeTabLayout.getTabAt(0);
+            tab.select();
+            count++;
+            Log.d("currentView", "Mods Fragment");
+        }
+        if (favoriteFragment != null && favoriteFragment.isVisible()) {
+            TabLayout.Tab tab = binding.homeTabLayout.getTabAt(1);
+            tab.select();
+            count = 0;
+            Log.d("currentView", "Fav Fragment");
+        }
 //        Log.d("backStackEntryAfter",getSupportFragmentManager().getBackStackEntryCount()+"");
 //        if (getSupportFragmentManager().getBackStackEntryCount() == 0) {
 //            TabLayout.Tab tab = binding.homeTabLayout.getTabAt(0);
